@@ -1,0 +1,25 @@
+{
+  "name": "up-task",
+  "version": "1.0.0",
+  "description": "fullstack web app using node and express to learn these tecnologies",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amatute/up-task.git"
+  },
+  "author": "Alejandro Matute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amatute/up-task/issues"
+  },
+  "homepage": "https://github.com/amatute/up-task#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
