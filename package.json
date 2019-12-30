@@ -4,7 +4,7 @@
   "description": "fullstack web app using node and express to learn these tecnologies",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon ./index.js"
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/amatute/up-task#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
