@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { body } = require('express-validator/check');
+const { body } = require('express-validator');
  
 const proyectosController = require('../controllers/proyectosController');
 const tareasController = require('../controllers/tareasController');
@@ -32,6 +32,9 @@ module.exports = () => {
 
   // Tareas
   router.post('/proyectos/:url', tareasController.agregarTarea);
+
+  // Actualizar Tarea
+  router.patch('/tareas/:id', tareasController.cambiarEstadoTarea);
 
   return router;
 }

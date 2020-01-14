@@ -26,8 +26,6 @@ app.set('views', path.join(__dirname, './views'));
 // Pasar var dump a la aplicación
 app.use((req, res, next) => {
   res.locals.vardump = helpers.vardump;
-  //res.locals.mensajes = req.flash();
-  //res.locals.usuario = {...req.user} || null;
   next();
 });
 
